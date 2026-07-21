@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/scores",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View current live scores"
+            }
+          }
+        ],
+        "send": {
+          "text": "/scores"
+        }
+      }
+    ]
+  }
+]
