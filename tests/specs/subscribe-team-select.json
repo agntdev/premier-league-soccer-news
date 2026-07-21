@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Subscribe to team alerts",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Select a team for targeted alerts"
+            }
+          }
+        ],
+        "send": {
+          "callback": "subscribe:team_select"
+        }
+      }
+    ]
+  }
+]
